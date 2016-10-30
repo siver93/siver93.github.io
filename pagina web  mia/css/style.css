@@ -1,0 +1,206 @@
+
+
+#contenidos{
+	width: 1000px;
+	height: auto;
+	margin: auto;
+	position: relative;
+	
+
+}
+
+
+/*ETIQUETAS*/
+body{
+
+
+background-image: url(../img/degradado.png); 
+background-repeat: no-repeat; 
+background-size: cover;  /
+
+}
+
+
+h1{
+
+	font-family: 'Abril Fatface', cursive;  
+	margin: 10px;
+	font-size: 60px;
+	text-align: center;
+	color:white;
+}
+
+h2{
+	font-family: 'Economica', sans-serif;  
+
+    margin: 10px;
+	font-size: 20px;
+	text-align: left;
+	color: #e0e0e0 ;
+
+}
+
+
+h3{
+    margin: 10px;
+	text-align: left;
+	font-size: 15px
+}
+
+
+
+header{ 
+    border-radius: 5px;
+    width: 1000px;
+    height: 120px;
+  
+background: rgb(8,58,89); 
+background: -moz-linear-gradient(top,  rgba(8,58,89,1) 0%, rgba(4,82,121,1) 65%); 
+background: -webkit-linear-gradient(top,  rgba(8,58,89,1) 0%,rgba(4,82,121,1) 65%); 
+background: linear-gradient(to bottom,  rgba(8,58,89,1) 0%,rgba(4,82,121,1) 65%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#083a59', endColorstr='#045279',GradientType=0 ); 
+
+
+
+
+}
+
+nav{
+width: 1000px;
+height: 50px;
+
+background: rgb(255,185,1); 
+background: -moz-linear-gradient(top,  rgba(255,185,1,1) 0%, rgba(255,219,130,1) 6%, rgba(255,185,1,1) 100%); 
+background: -webkit-linear-gradient(top,  rgba(255,185,1,1) 0%,rgba(255,219,130,1) 6%,rgba(255,185,1,1) 100%); 
+background: linear-gradient(to bottom,  rgba(255,185,1,1) 0%,rgba(255,219,130,1) 6%,rgba(255,185,1,1) 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb901', endColorstr='#ffb901',GradientType=0 ); 
+border-radius: 10px; 
+
+}
+
+ul{
+margin: auto;
+padding-top: 4px;
+}
+
+li{
+
+
+ 
+ float: left;
+
+ list-style-type: none; 
+ padding: 10px; 
+  
+background: rgb(207,231,250); 
+background: -moz-linear-gradient(top,  rgba(207,231,250,1) 0%, rgba(99,147,193,1) 100%); 
+background: -webkit-linear-gradient(top,  rgba(207,231,250,1) 0%,rgba(99,147,193,1) 100%); 
+background: linear-gradient(to bottom,  rgba(207,231,250,1) 0%,rgba(99,147,193,1) 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cfe7fa', endColorstr='#6393c1',GradientType=0 ); 
+;
+ margin: 3px; 
+ border-radius: 10px;
+ 
+ box-shadow: 0 0 5px white inset;
+
+}
+
+
+
+section{ 
+
+	width: 700px;
+	background: white;
+	height: 600px;
+	float: left;
+	margin-top: 20px;
+	border-radius: 10px;
+    
+}
+
+aside{
+    width: 280px;
+	
+background: rgb(226,226,226);
+background: -moz-linear-gradient(top,  rgba(226,226,226,1) 0%, rgba(219,219,219,1) 40%, rgba(206,206,206,1) 100%, rgba(254,254,254,1) 100%, rgba(206,206,206,1) 101%); 
+background: -webkit-linear-gradient(top,  rgba(226,226,226,1) 0%,rgba(219,219,219,1) 40%,rgba(206,206,206,1) 100%,rgba(254,254,254,1) 100%,rgba(206,206,206,1) 101%); 
+background: linear-gradient(to bottom,  rgba(226,226,226,1) 0%,rgba(219,219,219,1) 40%,rgba(206,206,206,1) 100%,rgba(254,254,254,1) 100%,rgba(206,206,206,1) 101%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#cecece',GradientType=0 ); 
+
+	height: 600px;	
+	float:left;
+	margin-left: 20px;
+	margin-top: 20px;
+	border-radius: 10px;
+	
+
+}
+
+footer{
+width: 1000px;
+height: 70px;
+
+background: rgb(206,220,231); 
+background: -moz-linear-gradient(top,  rgba(206,220,231,1) 0%, rgba(89,106,114,1) 100%); 
+background: -webkit-linear-gradient(top,  rgba(206,220,231,1) 0%,rgba(89,106,114,1) 100%); 
+background: linear-gradient(to bottom,  rgba(206,220,231,1) 0%,rgba(89,106,114,1) 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cedce7', endColorstr='#596a72',GradientType=0 ); 
+
+float: left;
+margin-top: 20px;
+border-radius: 10px;
+margin-bottom: 10px;
+}
+
+p{
+	font-size: 15px;
+	font-weight: bolder;
+	line-height: 20px; 
+	padding: 10px;
+	text-align: justify; 
+
+
+
+}
+
+div#banner{
+
+margin: 14px 300px;
+height: 360px;
+width: 640px;
+
+
+
+}
+
+img{
+
+margin : 40px;
+border-radius: 10px;
+
+}
+
+
+
+
+
+
+
+/*CLASES*/
+
+.ancho_menu_home{width: 900px;}
+.ancho_menu_paginas{width: 970px;}
+
+
+.menu:link{color:blue; text-decoration: none;}
+.menu:visited: {color:white; text-decoration: none;}
+.menu:hover{color:white; text-decoration: none;text-shadow:0 0 5px white;}
+.menu:active{color:white; text-decoration: none;}
+
+
+
+
+
+
+
+
